@@ -1,5 +1,2 @@
-service init_RM6785 /vendor/bin/init_RM6785_vendor
-    class late_start
-    user root
-    group root
-    oneshot
+on init
+    exec - root root -- /vendor/bin/init_RM6785_vendor
