@@ -7,7 +7,7 @@ rm -rf device/mediatek/sepolicy
 rm -rf hardware/mediatek 
 
 # clone
-git clone https://github.com/iamthecloverly/android_device_realme_RM6785 -b Elixir_3.0 device/realme/RM6785
+git clone https://github.com/ProjectElixir-Devices/android_device_realme_RM6785 -b 13.0 device/realme/RM6785
 git clone https://github.com/realme-mt6785-devs/proprietary_vendor_realme.git vendor/realme
 git clone https://github.com/realme-mt6785-devs/android_kernel_realme_mt6785.git kernel/realme/mt6785
 git clone https://github.com/realme-mt6785-devs/proprietary_vendor_realme-firmware realme/realme-firmware
