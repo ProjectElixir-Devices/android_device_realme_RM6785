@@ -2,7 +2,7 @@
 rm -rf device/realme/RM6785
 rm -rf vendor/realme
 rm -rf kernel/realme/mt6785
-rm -rf realme/realme-firmwar
+rm -rf realme/realme-firmware
 rm -rf device/mediatek/sepolicy
 rm -rf hardware/mediatek 
 
